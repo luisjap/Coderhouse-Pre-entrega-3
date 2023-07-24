@@ -1,0 +1,88 @@
+
+
+@media (max-width: 1170px) {
+    .btn2 {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 1024px) {
+    .box-menu-categorias {
+      display: inline-block;
+    }
+    div.contenido-iluminacion,
+    .contenido-cortinas,
+    .contenido-temp,
+    .contenido-audio,
+    .contenido-seguridad,
+    .contenido-monitoreo,
+    .contenido-onoff,
+    .box-img img {
+      height: 250px;
+    }
+    div.titulo-clasificacion {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+    }
+    .slide img,
+    .carousel-img-size {
+      height: 90vh;
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+    .box-img img:hover {
+      width: 100%;
+    }
+
+    .container_blog_S1{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .text_blog_S1{
+      display: inline-block;
+    }
+
+
+    .container_blog_S1 img{
+      width: 100%;
+      height: 500px;
+
+    }
+    .blog_S2{
+      flex-direction: column;
+
+    }
+
+    .container_formulario{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .container_formulario img{
+      width: 100%;
+      height: 600px;
+    }
+    .Ubicacion_maps{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-top: 0;
+      margin-top: 15px;
+
+    }
+
+    iframe{
+      width: 100%;
+
+    }
+
+
+  }
+  @media (max-width: 768px) {
+    footer.item-list {
+      height: 40vh;
+    }
+}

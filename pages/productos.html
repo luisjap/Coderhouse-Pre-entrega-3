@@ -5,53 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">  
-    <link rel="stylesheet" href="../sass/style.css">
-
-    <title>TechX/Productos</title>
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
+    
+    <title>TechX/Productos</title>
+
+
   </head>
   
   <body>
-<!-- Navbar -->
-<section>
+
+  <header>
+<!-- Navbar -->       
+    <section>
   
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+           <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
-        <ul class="navbar-nav me-auto">
-
-          <li class="nav-item">
-            <a class="nav-link text-white" href="../pages/productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="../pages/blog.html">Blog</a>
-          </li>
-        </ul> 
+               <ul class="navbar-nav me-auto">
+                 <li class="nav-item">
+                   <a class="nav-link text-white" href="../pages/productos.html">Productos</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link text-white" href="../pages/blog.html">Blog</a>
+                 </li>
+               </ul> 
         
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="navbar-brand text-white" href="../index.html">TechX</a>
-          </li>
-        </ul> 
+               <ul class="navbar-nav mx-auto">
+                 <li class="nav-item">
+                   <a class="navbar-brand text-white" href="../index.html">TechX</a>
+                 </li>
+               </ul> 
 
 
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="../pages/contacto.html">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="../pages/ubicacion.html">Ubicacion</a>
-          </li>
-        </ul> 
-      </div>
-    </div>
-  </nav>
-</section>
+               <ul class="navbar-nav ms-auto">
+                 <li class="nav-item">
+                   <a class="nav-link text-white" href="../pages/contacto.html">Contacto</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link text-white" href="../pages/ubicacion.html">Ubicacion</a>
+                 </li>
+               </ul> 
+             </div>
+           </div>
+         </nav>
+
+    </section>
+
+  </header>
+
+  <main>
 <!-- Carousel -->
 <section>
   <div id="carouselExampleInterval" class="carousel slide slide-productos" data-bs-ride="carousel" >
@@ -84,236 +91,526 @@
 </section>
 
 <!-- Productos -->
-<section class="seccionproductos">
+<section class="content_productos">
 
 
 <!-- Titulo Productos -->
   <section>
-  <div class="nuestros-productos">Nuestros Productos</div>
-    <div class="botones-productos btn-nuestrosproductos">
-      <button>Descubrelos <span-btn-producto></span-btn-producto></button>
+  <div class="nuestros-productos">
+   <h1>Nuestros Productos</h1>
   </div>
+
+  <div class="botones-productos btn-nuestrosproductos">
+    <button class="content_btn_producto">Descubrelos </button>
+  </div>
+  
   </section>
 
 <!-- Productos Promo -->
-  <section >
+  <section class="Section_producto_promo" >
   
   <section >
-  <div class="container text-center lineaprocuto">
+  <div class="container">
       <div class="row">
 
-  <div class="col-md-6 item-producto">
-    <img src="../media/Producto1.png"/>
-       <a href="../pages/productos.html"></a>
-    <div>Home Assistant</div>
-    <div class="botones-productos">
-    <button>Comprar <span-btn-producto></span-btn-producto></button>
-    <button>Saber mas <span-btn-producto></span-btn-producto></button>
-   </div>
- </div>
-  <div class="col-md-6 item-producto ">
-    <img src="../media/Producto1.png"/>
-       <a href="../pages/productos.html"></a>
-    <div>Home Assistant</div>
-    <div class="botones-productos">
-      <button>Comprar <span-btn-producto></span-btn-producto></button>
-      <button>Saber mas <span-btn-producto></span-btn-producto></button>
-     </div>
-    </div>
-   </div>
-  </div> 
+          <div class="col-md-6 col-lg-6 py-3">
+            <div class="content_img_producto">
+              <img src="../media/Producto_iluminacion_1.png" class="card-img-top" alt="ampolleta rgb con telefono"/>
+              <a href="../pages/productos.html"></a>
+              <h3>Iluminacion</h3>
+              <div class="botones-productos btn2">
+                 <button class="content_btn_producto">Ordenar</button>
+              </div>
+          </div>
+        </div>
+          <div class="col-md-6 col-lg-6 py-3" >
+            <div class="content_img_producto">
+              <img src="../media/Producto_temperatura_2.png" class="card-img-top" alt="Sensor de temperatura y humedad negro"/>
+              <a href="../pages/productos.html"></a>
+              <h3>Temperatura</h3>
+              <div class="botones-productos btn2">
+                 <button class="content_btn_producto">Ordenar</button>
+              
+              </div>
+          </div>
+        </div>
+  
 </section>
 
 
-
-<section class="seccionproductos">
-  <div class="container text-center lineaprocuto">
+<section>
+  <div class="container">
       <div class="row">
 
-  <div class="col-md-6 item-producto">
-    <img src="../media/Producto1.png"/>
-       <a href="../pages/productos.html"></a>
-    <div>Home Assistant</div>
-    <div class="botones-productos">
-    <button>Comprar <span-btn-producto></span-btn-producto></button>
-    <button>Saber mas <span-btn-producto></span-btn-producto></button>
-   </div>
- </div>
-  <div class="col-md-6 item-producto ">
-    <img src="../media/Producto1.png"/>
-       <a href="../pages/productos.html"></a>
-    <div>Home Assistant</div>
-    <div class="botones-productos">
-      <button>Comprar <span-btn-producto></span-btn-producto></button>
-      <button>Saber mas <span-btn-producto></span-btn-producto></button>
-     </div>
-    </div>
-  </div> 
+            <div class=" col-md-6 col-lg-6 py-3">
+              <div class="content_img_producto">
+                <img src="../media/Producto_cortina_3.png" class="card-img-top" alt="Motor para Smart Cortinas Roller WiFi"/>
+                <a href="../pages/productos.html"></a>
+                <h3>Cortinas</h3>
+                <div class="botones-productos btn2">
+                   <button class="content_btn_producto">Ordenar</button>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-lg-6 py-3">
+              <div class="content_img_producto">
+                <img src="../media/Producto_seguridad_1.png" class="card-img-top" alt="Cerradura negra Inteligente Biometrica"/>
+                <a href="../pages/productos.html"></a>
+                <h3>Seguridad</h3>
+                <div class="botones-productos btn2">
+                   <button class="content_btn_producto">Ordenar</button>
+                </div>
+              </div>
+            </div>
+      </div>
   </div>
-</section>
+
+  </section>
   </section>
 
-<!-- Titulo Productos Audio -->
+<!-- Titulo Productos Iluminacion -->
+
+ <section class="Section_producto_iluminacion">
   <section>
-      <div class="nuestros-productos">Audio</div>
+      <div class="nuestros-productos">
+        <h2>Iluminacion</h2>
+      </div>
+
         <div class="botones-productos btn-nuestrosproductos">
-          <button>Descubrelos <span-btn-producto></span-btn-producto></button>
+          <button class="content_btn_producto">Descubrelos</button>
+      </div>
+  </section>
+
+<!-- Productos Iluminacion -->
+<section>
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-md-6 col-lg-3 py-3">
+      <div class="content_img_producto PD">
+          <img src="../media/Producto_iluminacion_1.png" class="card-img-top" alt="ampolleta rgb con telefono"/>
+          <a href="../pages/productos.html"></a>
+          <h3">Ampolleta Rgb 9W</h3>
+          <div class="botones-productos btn2">
+             <button class="content_btn_producto">Ordenar</button>
+          
+          </div>
+      </div>
+   </div>
+
+   <div class="col-6 col-md-6 col-lg-3 py-3">
+    <div class="content_img_producto PD">
+        <img src="../media/Producto_iluminacion_2.png" class="card-img-top" alt="Lámpara circular de techo wifi RGB"/>
+        <a href="../pages/productos.html"></a>
+        <h3 style="font-size: 18px;">Lámpara de techo wifi RGB</h3>
+        <div class="botones-productos btn2">
+           <button class="content_btn_producto">Ordenar</button>
+        
+        </div>
+    </div>
+ </div>
+
+
+ <div class="col-6 col-md-6 col-lg-3 py-3">
+  <div class="content_img_producto PD">
+      <img src="../media/Producto_iluminacion_3.png" class="card-img-top" alt="led wifi Hexagonal"/>
+      <a href="../pages/productos.html"></a>
+      <h3>Led Wifi Hexagonal</h3>
+      <div class="botones-productos btn2">
+         <button class="content_btn_producto">Ordenar</button>
+      
+      </div>
+  </div>
+</div>
+
+
+   <div class="col-6 col-md-6 col-lg-3 py-3">
+    <div class="content_img_producto PD">
+        <img src="../media/Producto_iluminacion_4.png" class="card-img-top" alt=" cinta led  wifi rgb"/>
+        <a href="../pages/productos.html"></a>
+        <h3>Cinta Led wifi 15 metros Rgb</h3>
+        <div class="botones-productos btn2">
+           <button class="content_btn_producto">Ordenar</button>
+        
+        </div>
+    </div>
+ </div>
+      
+       
+  </div>
+</div>
+</section>
+</section>
+
+
+<!-- Titulo Productos Cortinas -->
+<section class="Section_producto_cortinas">
+  <section>
+
+
+      <div class="nuestros-productos">
+        <h2>Cortinas</h2>
+      </div>
+
+        <div class="botones-productos btn-nuestrosproductos">
+          <button class="content_btn_producto">Descubrelos</button>
+      </div>
+      
+  </section>
+
+<!-- Productos cortinas -->
+<section>
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-md-6 col-lg-3 py-3">
+      <div class="content_img_producto PD">
+          <img src="../media/Producto_cortina_1.png" class="card-img-top" alt="tubo de motor de cortina roller"/>
+          <a href="../pages/productos.html"></a>
+          <h3">Motor Smart cortina roller tubo 38mm</h3>
+          <div class="botones-productos btn2">
+             <button class="content_btn_producto">Ordenar</button>
+          
+          </div>
+      </div>
+   </div>
+
+   <div class="col-6 col-md-6 col-lg-3 py-3">
+    <div class="content_img_producto PD">
+        <img src="../media/Producto_cortina_2.png" class="card-img-top" alt="2 Motores para Smart Cortinas Roller WiFi"/>
+        <a href="../pages/productos.html"></a>
+        <h3 style="font-size: 18px;">Pack 2 Motores para Smart Cortinas Roller WiFi</h3>
+        <div class="botones-productos btn2">
+           <button class="content_btn_producto">Ordenar</button>
+        
+        </div>
+    </div>
+ </div>
+
+
+ <div class="col-6 col-md-6 col-lg-3 py-3">
+  <div class="content_img_producto PD">
+      <img src="../media/Producto_cortina_3.png" class="card-img-top" alt="Motor para Smart Cortinas Roller WiFi"/>
+      <a href="../pages/productos.html"></a>
+      <h3>Motor para Smart Cortinas Roller WiFi</h3>
+      <div class="botones-productos btn2">
+         <button class="content_btn_producto">Ordenar</button>
+      
+      </div>
+  </div>
+</div>
+
+
+   <div class="col-6 col-md-6 col-lg-3 py-3">
+    <div class="content_img_producto PD">
+        <img src="../media/Producto_cortina_4.png" class="card-img-top" alt="Interruptor de Cortina Wifi"/>
+        <a href="../pages/productos.html"></a>
+        <h3>Interruptor de Cortina Wifi</h3>
+        <div class="botones-productos btn2">
+           <button class="content_btn_producto">Ordenar</button>
+        
+        </div>
+    </div>
+ </div>
+      
+       
+  </div>
+</div>
+</section>
+</section>
+
+<!-- Titulo Productos Temperatura -->
+<section class="Section_producto_temperatura">
+  <section>
+      <div class="nuestros-productos">
+        <h2>Temperatura</h2>
+      </div>
+
+        <div class="botones-productos btn-nuestrosproductos">
+          <button class="content_btn_producto">Descubrelos</button>
+      </div>
+  </section>
+
+<!-- Productos Temperatura -->
+<section>
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="content_img_producto">
+            <img src="../media/Producto_temperatura_1.png" class="card-img-top" alt="Sensor de temperatura blanco"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Sensor de Temperatura Humedad 5V</h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            </div>
+        </div>
+      </div>
+        <div class="col-md-6 col-lg-6 py-3" >
+          <div class="content_img_producto">
+            <img src="../media/Producto_temperatura_2.png" class="card-img-top" alt="Sensor de temperatura y humedad negro"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Smart Ir Con Sensor Temperatura y humedad</h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            
+            </div>
+        </div>
+      </div>
+</section>
+</section>
+
+
+<!-- Titulo Productos audio -->
+<section class="Section_producto_audio">
+  <section>
+      <div class="nuestros-productos">
+        <h2>Audio</h2>
+      </div>
+
+        <div class="botones-productos btn-nuestrosproductos">
+          <button class="content_btn_producto">Descubrelos</button>
       </div>
   </section>
 
 <!-- Productos Audio -->
-  <section>
-  <div>
-    <div class="row">
-      <div class="col-md-12">
-         <div class="col-md-3">
-            <div class="item-productos">
-                <img clas="img-responsive" src="../media/Producto1.png"/>
-                <a href="../pages/productos.html"></a>
-                <h2>Home Assistant</h2>
-                <div class="botones-productos btn2">
-                   <button>Comprar <span-btn-producto></span-btn-producto></button>
-                   <button>Saber mas <span-btn-producto></span-btn-producto></button>
-                </div>
-            </div>
-         </div>
-         <div class="col-md-3">
-          <div class="item-productos">
-              <img clas="img-responsive" src="../media/Producto1.png"/>
-              <a href="../pages/productos.html"></a>
-              <h2>Home Assistant</h2>
-              <div class="botones-productos btn2">
-                 <button>Comprar <span-btn-producto></span-btn-producto></button>
-                 <button>Saber mas <span-btn-producto></span-btn-producto></button>
-              </div>
-          </div>
-         </div>
-         <div class="col-md-3">
-        <div class="item-productos">
-            <img clas="img-responsive" src="../media/Producto1.png"/>
-            <a href="../pages/productos.html"></a>
-            <h2>Home Assistant</h2>
-            <div class="botones-productos btn2">
-               <button>Comprar <span-btn-producto></span-btn-producto></button>
-               <button>Saber mas <span-btn-producto></span-btn-producto></button>
-            </div>
-        </div>
-         </div>
-         <div class="col-md-3">
-          <div class="item-productos">
-              <img clas="img-responsive" src="../media/Producto1.png"/>
-              <a href="../pages/productos.html"></a>
-              <h2>Home Assistant</h2>
-              <div class="botones-productos btn2">
-                 <button>Comprar <span-btn-producto></span-btn-producto></button>
-                 <button>Saber mas <span-btn-producto></span-btn-producto></button>
-              </div>
-          </div>
-         </div>
-      </div>
-    </div>
-  </div>
-
-  </section>
-
-<!-- Titulo Productos Monitoreo -->
-  <section>
-  <div class="nuestros-productos">Monitoreo</div>
-      <div class="botones-productos btn-nuestrosproductos">
-        <button>Descubrelos <span-btn-producto></span-btn-producto></button>
-    </div>
-  
-  </section>
-  
-  <!-- Productos Monitoreo -->
-  <section>
-  <div>
-    <div class="row">
-      <div class="col-md-12">
-         <div class="col-md-3">
-            <div class="item-productos">
-                <img clas="img-responsive" src="../media/Producto1.png"/>
-                <a href="../pages/productos.html"></a>
-                <h2>Home Assistant</h2>
-                <div class="botones-productos btn2">
-                   <button>Comprar <span-btn-producto></span-btn-producto></button>
-                   <button>Saber mas <span-btn-producto></span-btn-producto></button>
-                </div>
-            </div>
-         </div>
-         <div class="col-md-3">
-          <div class="item-productos">
-              <img clas="img-responsive" src="../media/Producto1.png"/>
-              <a href="../pages/productos.html"></a>
-              <h2>Home Assistant</h2>
-              <div class="botones-productos btn2">
-                 <button>Comprar <span-btn-producto></span-btn-producto></button>
-                 <button>Saber mas <span-btn-producto></span-btn-producto></button>
-              </div>
-          </div>
-         </div>
-         <div class="col-md-3">
-        <div class="item-productos">
-            <img clas="img-responsive" src="../media/Producto1.png"/>
-            <a href="../pages/productos.html"></a>
-            <h2>Home Assistant</h2>
-            <div class="botones-productos btn2">
-               <button>Comprar <span-btn-producto></span-btn-producto></button>
-               <button>Saber mas <span-btn-producto></span-btn-producto></button>
-            </div>
-        </div>
-         </div>
-         <div class="col-md-3">
-          <div class="item-productos">
-              <img clas="img-responsive" src="../media/Producto1.png"/>
-              <a href="../pages/productos.html"></a>
-              <h2>Home Assistant</h2>
-              <div class="botones-productos btn2">
-                 <button>Comprar <span-btn-producto></span-btn-producto></button>
-                 <button>Saber mas <span-btn-producto></span-btn-producto></button>
-              </div>
-          </div>
-         </div>
-      </div>
-    </div>
-  </div>
-  
-  </section>
-</section>
-
-  
-
- <footer class="item-list"> 
-  <div>
-   <h2 class="cont-title-footer text-white text-white">TechX</h2>
-  </div>
-  
-  
-  <hr/>
-
-
+<section>
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
-        <div class="col text-white">Blog</div>
-        <div class="col text-white">Productos</div>
-        <div class="col text-white">Home</div>
-        <div class="col text-white">Contacto</div>
-        <div class="col text-white">Ubicacion</div>
+
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="content_img_producto">
+            <img src="../media/Producto_audio_1.png" class="card-img-top" alt="Parlante inteligente Alexa negro"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Amazon Echo Plus Negro</Em></h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            </div>
+        </div>
       </div>
+        <div class="col-md-6 col-lg-6 py-3" >
+          <div class="content_img_producto">
+            <img src="../media/Producto1.png" class="card-img-top" alt="Parlante inteligente Apple blanco"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Apple home Pod mini Blanco</h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            
+            </div>
+        </div>
+      </div>
+</section>
+</section>
+
+<!-- Titulo Productos Seguridad -->
+<section class="Section_producto_seguridad">
+  <section>
+
+
+      <div class="nuestros-productos">
+        <h2>Seguridad</h2>
+      </div>
+
+        <div class="botones-productos btn-nuestrosproductos">
+          <button class="content_btn_producto">Descubrelos</button>
+      </div>
+      
+  </section>
+
+<!-- Productos seguridad -->
+<section>
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-md-6 col-lg-3 py-3">
+      <div class="content_img_producto PD">
+          <img src="../media/Producto_seguridad_1.png" class="card-img-top" alt="Cerradura negra Inteligente Biometrica"/>
+          <a href="../pages/productos.html"></a>
+          <h3>Cerradura Wifi Inteligente Biometrica</h3>
+          <div class="botones-productos btn2">
+             <button class="content_btn_producto">Ordenar</button>
+          
+          </div>
+      </div>
+   </div>
+
+   <div class="col-6 col-md-6 col-lg-3 py-3">
+    <div class="content_img_producto PD">
+        <img src="../media/Producto_seguridad_2.png" class="card-img-top" alt="Camara Wifi Solar 1080"/>
+        <a href="../pages/productos.html"></a>
+        <h3 style="font-size: 18px;">Camara ip Wifi Solar 1080</h3>
+        <div class="botones-productos btn2">
+           <button class="content_btn_producto">Ordenar</button>
+        
+        </div>
     </div>
+ </div>
+
+
+ <div class="col-6 col-md-6 col-lg-3 py-3">
+  <div class="content_img_producto PD">
+      <img src="../media/Producto_seguridad_3.png" class="card-img-top" alt="Sensor de movimiento blanco con Sonido Wifi"/>
+      <a href="../pages/productos.html"></a>
+      <h3>Sensor de movimiento con Sonido Wifi</h3>
+      <div class="botones-productos btn2">
+         <button class="content_btn_producto">Ordenar</button>
+      
+      </div>
   </div>
+</div>
+
+
+   <div class="col-6 col-md-6 col-lg-3 py-3">
+    <div class="content_img_producto PD">
+        <img src="../media/Producto_seguridad_4.png" class="card-img-top" alt="Alarma wifi Gsm Inalambrica"/>
+        <a href="../pages/productos.html"></a>
+        <h3>Alarma wifi Gsm Inalambrica</h3>
+        <div class="botones-productos btn2">
+           <button class="content_btn_producto">Ordenar</button>
+        
+        </div>
+    </div>
+ </div>
+      
+       
+  </div>
+</div>
+</section>
+</section>
+
+<!-- Titulo Productos Monitoreo -->
+<section class="Section_producto_Monitoreo">
+  <section>
+      <div class="nuestros-productos">
+        <h2>Monitoreo</h2>
+      </div>
+
+        <div class="botones-productos btn-nuestrosproductos">
+          <button class="content_btn_producto">Descubrelos</button>
+      </div>
+  </section>
+
+<!-- Productos Monitoreo -->
+<section>
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="content_img_producto">
+            <img src="../media/Producto_monitoreo_1.png" class="card-img-top" alt="4 camaras con pantalla"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Set de monitoreo de 4 canales con pantalla de 12"</Em></h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            </div>
+        </div>
+      </div>
+        <div class="col-md-6 col-lg-6 py-3" >
+          <div class="content_img_producto">
+            <img src="../media/Producto_monitoreo_2.png" class="card-img-top" alt="8 camaras blanca"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Kit Camara 2.0MP WiFi Impermeable 8 Canales</h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            
+            </div>
+        </div>
+      </div>
+</section>
+</section>
+
+  <!-- Titulo Productos On/Off -->
+<section class="Section_producto_on-off">
+  <section>
+      <div class="nuestros-productos">
+        <h2>On/Off</h2>
+      </div>
+
+        <div class="botones-productos btn-nuestrosproductos">
+          <button class="content_btn_producto">Descubrelos</button>
+      </div>
+  </section>
+
+<!-- Productos On/Off -->
+<section>
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="content_img_producto">
+            <img src="../media/Producto_on-off_1.png" class="card-img-top" alt="Interruptor inteligente negro"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Interruptor wifi 1 Canal Negro</Em></h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            </div>
+        </div>
+      </div>
+        <div class="col-md-6 col-lg-6 py-3" >
+          <div class="content_img_producto">
+            <img src="../media/Producto_on-off_2.png" class="card-img-top" alt="Interruptor inteligente blanco"/>
+            <a href="../pages/productos.html"></a>
+            <h3>Interruptor wifi 1 canal Blanco</h3>
+            <div class="botones-productos btn2">
+               <button class="content_btn_producto">Ordenar</button>
+            
+            </div>
+        </div>
+      </div>
+</section>
+</section>
+
+ 
+
+  </main>
+
+<footer> 
+<div class="display_footer">
+  <div class="container">
+    <div class="row">
+ <div > 
+  <div class="content_footer">
+   <h2>TechX</h2>
+  </div>
+
+
+      <div class="col-12 content_footer_items">
+   
+        <ul class="item_ul">
+          <li class="item_li">
+            <a href="../pages/productos.html"> Productos </a>
+          </li>
+          <li class="item_li">
+            <a href="../pages/blog.html"> Blog </a>
+          </li>
+          <li class="item_li">
+            <a href="../index.html"> Home </a>
+          </li>
+          <li class="item_li">
+            <a href="../pages/contacto.html"> Contacto </a>
+          </li>
+          <li class="item_li">
+            <a href="../pages/ubicacion.html"> Ubicacion </a>
+          </li>
+
+        </ul>
+
+      </ul>
+      </div>
+
+    
+
   
   
-  <div class="redes-sociales">
-    <a href="#" class="fa-brands fa-instagram"></a>
-    <a href="#" class="fa-brands fa-facebook"></a>
-    <a href="#" class="fa-brands fa-linkedin"></a>
-    <a href="#" class="fa-brands fa-twitter"></a>
-    <a href="#" class="fa-brands fa-google-plus-g"></a>
-  </div>
- </div>
- </div>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com/accounts/login/" class="fa-brands fa-instagram"></a>
+        <a href="https://web.facebook.com/login.php?_rdc=1&_rdr" class="fa-brands fa-facebook"></a>
+        <a href="https://www.linkedin.com/login/es" class="fa-brands fa-linkedin"></a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Des" class="fa-brands fa-twitter"></a>
+        <a href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjD9I-pj6aAAxVzLrkGHYH8CesQPAgI" class="fa-brands fa-google-plus-g"></a>
+      </div>
+
+</div>
+</div>
+</div>
+</footer>
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 

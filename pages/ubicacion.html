@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="/css/estilo.css">
 
-    <title>TechX</title>
-  </head>
-  
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <title>TechX/Ubicacion</title>
+</head>
+
+<body>
+  <header>
     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          
+
           <ul class="navbar-nav me-auto">
 
             <li class="nav-item">
@@ -28,13 +34,13 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="../pages/blog.html">Blog</a>
             </li>
-          </ul> 
-          
+          </ul>
+
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="navbar-brand text-white" href="/index.html">TechX</a>
             </li>
-          </ul> 
+          </ul>
 
 
           <ul class="navbar-nav ms-auto">
@@ -44,24 +50,115 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="../pages/ubicacion.html">Ubicacion</a>
             </li>
-          
-          </ul> 
+
+          </ul>
         </div>
       </div>
     </nav>
+  </header>
 
-    <script src="/js/boostrap.bundle.js"></script>
+  <main>
+    <section>
+        <div class="Ubicacion_maps">
+        <div class="text_ubicacion">
 
- <script>
-  const navE1 = document.querySelector('.navbar');
-  
-  window.addEventListener('scroll', () => {
-    if (window.scrollY >= 100){
-      navE1.classList.add('navbar-scrolled');
-    } else if (window.scrollY < 100){
-      navE1.classList.remove ('navbar-scrolled');
-    }
-  });
- </script>
+          <form action="">
+            <div class="form_ubicacion">
+              <h1>Encontrar tienda</h1>
+              <div class="grupo">
+                <input type="text" name="" id="" required><span class="barra"></span>
+                <label>Encontrar tienda</label>
+              </div>
+
+              <h2>¡Visítanos en Nuestra Tienda y Descubre un Mundo de Opciones!</h2>
+              <p>
+                Sucursal Principal - Centro Comercial Estrella
+                
+                ¡Bienvenido a nuestra sucursal principal, ubicada en el corazón del bullicioso Centro Comercial Estrella! Aquí encontrarás un amplio y moderno espacio dedicado a satisfacer todas tus necesidades. Nuestra tienda ofrece una gran variedad de productos de alta calidad y las últimas tendencias en electrónica, tecnología, electrodomésticos y mucho más. Ven a explorar nuestras secciones y déjate sorprender por las mejores ofertas y descuentos que tenemos para ti.
+                
+                Dirección: Centro Comercial Estrella, Av. Principal #123, Piso 2, Local 201.
+                Horario: Lunes a Sábado de 10:00 am a 8:00 pm. Domingos de 11:00 am a 6:00 pm.
+                
+                </p>
+            </div>
+        </div>
+        
+          <div>
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.0831984567726!2d-80.16073790000002!3d26.193971700000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d903c15ecf604b%3A0x400da9a6df17c8fd!2s1350%20NW%2055th%20St%2C%20Fort%20Lauderdale%2C%20FL%2033309%2C%20EE.%20UU.!5e0!3m2!1ses-419!2scl!4v1690156965462!5m2!1ses-419!2scl"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+
+
+
+    </section>
+  </main>
+
+
+
+  <footer>
+    <div class="display_footer">
+      <div class="container">
+        <div class="row">
+          <div class="content_footer">
+            <h2>TechX</h2>
+          </div>
+          <div class="col-md-12 content_footer_items">
+            <ul class="item_ul">
+              <li class="item_li">
+                <a href="../pages/productos.html"> Productos </a>
+              </li>
+              <li class="item_li">
+                <a href="../pages/blog.html"> Blog </a>
+              </li>
+              <li class="item_li">
+                <a href="../index.html"> Home </a>
+              </li>
+              <li class="item_li">
+                <a href="../pages/contacto.html"> Contacto </a>
+              </li>
+              <li class="item_li">
+                <a href="../pages/ubicacion.html"> Ubicacion </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="redes-sociales">
+            <a href="https://www.instagram.com/accounts/login/" class="fa-brands fa-instagram"></a>
+            <a href="https://web.facebook.com/login.php?_rdc=1&_rdr" class="fa-brands fa-facebook"></a>
+            <a href="https://www.linkedin.com/login/es" class="fa-brands fa-linkedin"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Des" class="fa-brands fa-twitter"></a>
+            <a href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjD9I-pj6aAAxVzLrkGHYH8CesQPAgI" class="fa-brands fa-google-plus-g"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+∫
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script>
+    const navE1 = document.querySelector('.navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 0) {
+        navE1.classList.add('navbar-scrolled');
+      } else if (window.scrollY < 0) {
+        navE1.classList.remove('navbar-scrolled');
+      }
+    });
+  </script>
 </body>
+
 </html>

@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+
+/*index.html*/
+
+/*  Main */
+
+/*  Carousel S1 */
+
+.slide img{
+    height: 100vh;
+    object-fit: cover;
+}
+.carousel-img-size{
+    height: 100vh;
+    filter: brightness(0.9);
+    object-fit: cover;
+}
+.carousel-img-size-pro{
+    height: 60vh;
+}
+.navbar-scrolled{
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*  Final Carousel S1 */
+
+/*  Menu Categorias S2 */
+
+
+
+
+.box-menu-categorias{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+div.titulo-left {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+div.titulo-top {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.box-img{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.box-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.box-img img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+
+/* Final Menu Categorias S2 */
+
+
+/*  Imagen Contacto S3 */
+
+
+
+
+
+h2.showroom{
+
+    height: 300px;
+    display: grid;
+    place-items: center;
+    margin-right: 20%;
+    font-size: 40px;
+}
+
+.contenedor-imagen-contacto img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.contenedor-imagen-contacto{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-imagen-contacto-arriba,
+.texto-imagen-contacto-abajo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.texto-imagen-contacto-arriba{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+
+}
+.texto-imagen-contacto-abajo{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+}
+
+/*Btn Informacion*/
+
+
+div.btn-info {
+    height: 200px;
+    display: grid;
+    place-items: center;
+    margin-right: 20%;
+    font-size: 50px;
+}
+
+h2.cont-blog{
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin-right: 20%;
+    font-size: 40px;
+}
+
+
+
+
+/* Final Imagen Contacto S3 */
+
+/*  Blog S4 */
+
+
+
+
+.carousel-img-size-blog{
+    height: 80vh;
+}
+
+.carousel-inner h5{
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+/* Final Blog S4 */
+
+/* Final Main */
+
+/* Footer */
+
+
+
+
+
+
+.display_footer{
+    background: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content_footer{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+.content_footer h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.content_footer_items{
+    text-align: center;
+}
+
+.redes-sociales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.redes-sociales a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+}
+
+.redes-sociales a:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Final Footer */
+
+/* Final Index.html */
