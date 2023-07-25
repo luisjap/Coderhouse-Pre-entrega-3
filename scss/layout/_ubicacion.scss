@@ -1,6 +1,6 @@
 
 
-
+/*  Inicio Ubicacion */
 .Ubicacion_maps{
     margin-top: 100px;
     display: grid;
@@ -13,11 +13,8 @@
 iframe{
     height: 600px;
     max-width: 100%;
-
 }
 
-
-  
 
   .grupo input{
     background: none;
@@ -73,3 +70,5 @@ iframe{
   transition: 0.5s ease all;
   left: 0%;  
 }
+
+/*  Final Ubicacion */

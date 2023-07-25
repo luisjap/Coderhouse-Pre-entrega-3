@@ -1,0 +1,10 @@
+
+
+
+
+
+@mixin imagenes($width,$height,$objet){
+    width: $width;
+    height: $height;
+    object-fit: $objet;
+}

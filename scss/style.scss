@@ -1,8 +1,10 @@
+/* Import Resets */
+@import "./base/variables";
+@import "./base/resets";
 
 
 
-
-/* style pages */
+/* Import style pages */
 
 @import "./layout/index";
 @import "./layout/productos";
@@ -11,6 +13,10 @@
 @import "./layout/ubicacion";
 
 
-/* Parcials/Media Queries*/
+/* Import Media Queries*/
 
-@import"./parcials/mediaqueries"
+@import"./parcials/mediaqueries";
+
+/* Import Componentes*/
+
+@import "./componentes/footer"

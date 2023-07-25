@@ -17,7 +17,7 @@
 
 
   .seccion_blog{
-    background: linear-gradient(to left, #FFFFFF, #FFEFBA); 
+    background: $color_seccion_blog; 
   }
   .sectionb_blog{
     display: flex;
@@ -46,7 +46,7 @@
     align-items: center;
     min-height: 60vh;
     max-height: 100%;
-    background: linear-gradient(to left, #FFFFFF, #FFEFBA);
+    background: $color_seccion_blog;
     gap: 10px;
     padding: 20px;
   }
@@ -66,9 +66,8 @@
 
 
   .container_blog_S1 img{
-    width: 40%;
-    height: 100%;
-    object-fit: cover;
+    @include imagenes(40%,100%,cover);
+  
   }
   
   .text_blog_S1{

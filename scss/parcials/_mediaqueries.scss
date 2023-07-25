@@ -80,18 +80,32 @@
 
     }
 
+    // .grid_blog{
+    //   display: flex;
+    //   flex-direction: column;
+    //   height: 100%;
+    //   object-fit: cover;
+    //   width: 100%;
+    // }
+
     .grid_blog{
-      display: flex;
+      display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: repeat(3, 100px);
+      gap: 12px ;
+      padding: 15px 20px;
       flex-direction: column;
-      height: 100%;
-      width: 100%;
-      
+      place-items: center;
+      max-height: 100%;
     }
+
+
     .text_blog_S1{
       padding: 0;
     }
     .seccion_grid_imagenes{
       padding: 0;
+      height: 100%;
     }
 
 
