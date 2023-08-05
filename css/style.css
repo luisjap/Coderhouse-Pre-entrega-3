@@ -19,15 +19,13 @@ body {
 /*  Carousel S1 */
 .slide img {
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-img-size {
   height: 100vh;
   filter: brightness(0.9);
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-img-size-pro {
@@ -39,6 +37,10 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
 
+.nav-item-tech a {
+  font-size: 30px;
+}
+
 /*  Final Carousel S1 */
 /*  Menu Categorias S2 */
 .box-menu-categorias {
@@ -48,6 +50,12 @@ body {
   padding: 0;
   padding-top: 10px;
   margin: 0px;
+  gap: 1rem;
+}
+
+.titulo-clasificacion {
+  font-size: 25px;
+  color: black;
 }
 
 div.titulo-left {
@@ -75,10 +83,9 @@ div.titulo-top {
 .box-img img {
   width: 100%;
   height: 600px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 0.8;
-  transition: 0.5s ease;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
 }
 
 .box-img img:hover {
@@ -101,8 +108,7 @@ h2.showroom {
 .contenedor-imagen-contacto img {
   width: 100%;
   height: 800px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .contenedor-imagen-contacto {
@@ -126,7 +132,7 @@ h2.showroom {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.5rem;
+  font-size: 35px;
 }
 
 .texto-imagen-contacto-abajo {
@@ -134,7 +140,7 @@ h2.showroom {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1rem;
+  font-size: 30px;
 }
 
 /*Btn Informacion*/
@@ -163,6 +169,10 @@ h2.cont-blog {
 .carousel-inner h5 {
   display: grid;
   place-items: center;
+}
+
+.content_footer a {
+  text-decoration: none;
 }
 
 /* Final Blog S4 */
@@ -319,8 +329,7 @@ h2.cont-blog {
 .container_blog_S1 img {
   width: 40%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .text_blog_S1 {
@@ -350,8 +359,7 @@ h2.cont-blog {
 .grid_blog img {
   width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .imgb_S1 {
@@ -403,8 +411,7 @@ h2.cont-blog {
 .container_formulario img {
   width: 50%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .text_formulario {
@@ -505,16 +512,22 @@ form .grupo {
   color: #fff;
   overflow: hidden;
   box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
 .form button:hover {
   background: rgb(61, 106, 255);
   box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
 .form button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
   animation: sh02 0.5s 0s linear;
 }
 
@@ -529,6 +542,10 @@ form .grupo {
   opacity: 0;
   background: #fff;
   box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
   transform: skewX(-20deg);
 }
 
@@ -547,6 +564,8 @@ form .grupo {
 }
 .form button:active {
   box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
 }
 
@@ -757,4 +776,6 @@ iframe {
 
 .redes-sociales a:hover {
   transform: scale(1.2);
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
